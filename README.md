@@ -76,9 +76,9 @@ Inside of this folder, we've provided you with a few files, some of those files 
 - [ ] *index.html*
 - [ ] *scripts/helloWorld.js* (*helloWorld.js* is inside of the *scripts* folder)
 - [ ] *styles/main.css*
-- [ ] *quizzes/terminal.txt*
-- [ ] *quizzes/htmlcss/index.html*
-- [ ] *quizzes/htmlcss/style.css*
+- [ ] *checkpoints/terminal.txt*
+- [ ] *checkpoints/htmlcss/index.html*
+- [ ] *checkpoints/htmlcss/style.css*
 
 #### 4.1 | Editing our index.html file
 
