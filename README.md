@@ -132,9 +132,9 @@ Step | Instruction | Screen Shot
 1. Add CSS styles to *styles/main.css*.
 2. Link it into your *index.html*.
 
-#### 4.6 | Complete the quizzes
+#### 4.6 | Complete the checkpoints
 
-1. Show your instructors what you know! In the `quizzes` folder, you will find two .txt files. These have some questions about things we have covered this week!
+1. Show your instructors what you know! In the `checkpoints` folder, you will find two .txt files. These have some questions about things we have covered this week!
 2. Below each question, all you need to do is type your answer! If you're unsure, feel free to do some research, or write that you're not sure. All we're asking for is you try your best!
 
 ### 5 | "Uploading" your changes to GitHub
