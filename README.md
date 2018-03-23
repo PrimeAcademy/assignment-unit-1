@@ -73,12 +73,12 @@ Inside of this folder, we've provided you with a few files, some of those files 
 
 #### Files Provided
 
-- [ ] *index.html*
-- [ ] *scripts/helloWorld.js* (*helloWorld.js* is inside of the *scripts* folder)
-- [ ] *styles/main.css*
-- [ ] *checkpoints/terminal.txt*
-- [ ] *checkpoints/htmlcss/index.html*
-- [ ] *checkpoints/htmlcss/style.css*
+- [ ] *assignment/index.html*
+- [ ] *assignment/scripts/helloWorld.js* (*helloWorld.js* is inside of the *scripts* folder)
+- [ ] *assignment/styles/main.css*
+- [ ] *assignment/checkpoints/terminal.txt*
+- [ ] *assignment/checkpoints/htmlcss/index.html*
+- [ ] *assignment/checkpoints/htmlcss/style.css*
 
 #### 4.1 | Editing our index.html file
 
@@ -135,11 +135,12 @@ Step | Instruction | Screen Shot
 #### 4.6 | Complete the checkpoints
 
 1. Show your instructors what you know! In the `checkpoints` folder, you will find a .txt file and a folder called `htmlcss` containing two files. These have some questions about things we have covered this week!
-2. In the .txt file, below each question, all you need to do is type your answer! If you're unsure, feel free to do some research, or write that you're not sure. All we're asking for is you try your best! In the `htmlcss` folder, follow the instructions.
+2. In the .txt file, below each question, all you need to do is type your answer! If you're unsure, feel free to do some research, or write that you're not sure. All we're asking for is you try your best! 
+3. In the `htmlcss` folder, there are tasks in the html and css files. There is no need to delete the instuctions, just type your code below it!
 
 ### 5 | "Uploading" your changes to GitHub
 
-You've now sourced in a JavaScript file and created a basic page that says hello to the world from you as a developer! Next, we'll use Git to post your work to GitHub.
+Now that your assignment is done, we'll use Git to post your work to GitHub.
 
 **IMPORTANT:** All of the following steps will occur in Terminal.
 
@@ -153,10 +154,10 @@ Watch the [detailed video instructions](https://vimeo.com/199694700). If needed,
 
 1. Go to https://primeacademy.io/student.
 2. Login with your email address and password. You will see a dashboard with your assignments.
-3. Click on the **Prework Week 1** link. A form will appear in a modal window.
-4. In a new browser tab, go to the repo for your completed assignment.
+3. Click on the **Prework-Week 1** link. A form will appear in a modal window.
+4. In a new browser tab, go to the GitHub repo for your completed assignment.
 5. Copy the URL in the browser bar.
-6. Return to the browser tab from Step 3.
+6. Return to the browser tab with the Prime assignment app.
 7. Paste your URL into the **Git Repo** input field.
 8. Optionally, add any comments you'd like to make to instructors in the **Comments** input field.
 9. Click the **Save** button to complete submission of the assignment.
