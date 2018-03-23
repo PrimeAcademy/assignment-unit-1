@@ -1,9 +1,21 @@
 /* give your page a fun background color */
-
+body {
+    background-color: gainsboro;
+}
 /* give your header and footer another background color */
-
+header, footer {
+    background-color: blueviolet
+}
 /* define the font for your header */
-
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* remove the bullets from your unordered list */
-
+ul {
+    list-style-type: none;
+}
 /* make your paragraph italic and a color that is not black */
+p {
+    font-style: italic;
+    color: white;
+}
