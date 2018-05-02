@@ -1,6 +1,6 @@
-# Prime Prework Week 1
+# Prime Tier 1 Week 1
 
-Welcome to Prework at Prime Digital Academy! In week 1, we're getting you set up with the basics.
+Welcome to Tier 1 at Prime Digital Academy! In week 1, we're getting you set up with the basics.
 
 Click on each link below for instructions:
 
@@ -34,25 +34,25 @@ Step | Instruction | Screen Shot
 3 | Select File > New Folder to create a *prime* folder for Prime work | ![](images/finder-new-folder.png)
 4 | Type `prime` and hit the RETURN (or ENTER) key to name the new folder. |![](images/finder-prime-folder.png)
 5 | Double-click on the *prime* folder to open it. | *intentionally blank* :ok:
-6 | Create a *prework* folder inside of the *prime* folder. **HINT:** Just like we did in Step 3 and 4. |![](images/finder-prime-prework.png)
+6 | Create a *tier1* folder inside of the *prime* folder. **HINT:** Just like we did in Step 3 and 4. |
 
 ### 2 | Getting our assignment onto our computer
 
-[Watch this video on how to "download"](https://vimeo.com/218468543) your assignment into the *prework* folder you created. The password for the video is '**pr1me**'. You can also read the written instructions below:
+[Watch this video on how to "download"](https://vimeo.com/218468543) your assignment into the *tier1* folder you created. You can also read the written instructions below:
 
 1. Click on the *Fork* button in the upper right-hand corner of this webpage.
-2. Click to select your GitHub account in the modal window that appears. This will create a copy of this code under your account.
+2. Click to select your GitHub account in the modal window that appears by clicking on your profile picture. This will create a copy of this code under your account.
 **NOTE:** You will immediately be navigated to your copy on GitHub.
 3. Click on the green *Clone or download* button.
 4. Click on the clipboard icon button to copy the Git URL for this repo.
 5. Open the Terminal application on your computer. This can be found in Applications > Utilities > Terminal.
 ![](images/applicationUtilities_450.png)
 ![](images/applicationTerminal_450.png)
-6. Type `cd ~/prime/prework` in the Terminal application and press the RETURN (or ENTER) key to navigate to your prework folder.
+6. Type `cd ~/prime/tier1` in the Terminal application and press the RETURN (or ENTER) key to navigate to your tier1 folder.
 7. Type `git clone `. **IMPORTANT:** Leave a space after the word "clone".
 8. Press COMMAND and V keys at the same time to paste your Git URL next to the words you just typed.
 9. Press the RETURN (or ENTER) key to execute the typed command. This will create a local copy of your GitHub-hosted repo.
-10. Type `cd prime-pw-1-assignment` to navigate into your local Git repo.
+10. Type `cd prime-pw-week-1-assignment` to navigate into your local Git repo.
 
 ### 3 | Opening our project in Atom
 
@@ -123,20 +123,20 @@ We'll need to "source" the *.js* file in the HTML. This is what connects the Jav
 Step | Instruction | Screen Shot
 --- | --- | ---
 1 | Open the *index.html* file in Chrome. **NOTE:** There are a few ways to do this, but one way is to type and execute `open assignment/index.html` in the Terminal. | *intentionally blank*
-2 | Right-click anywhere on the webpage and choose Inspect from the popup menu. |![chrome_0](images/chrome_0.png)
+2 | Right-click anywhere on the webpage and choose Inspect from the menu. |![chrome_0](images/chrome_0.png)
 2 (alt) | Alternatively, this can also be opened by choosing View > Developer > Developer Tools. |![chrome_1](images/chrome_1.png)
 3 | In the Dev Tools panel, click on the "Console" tab to activate it. You'll see in there your "Hello World!" message. |![chrome_1](images/chrome_2.png)
 
 #### 4.5 | Add some styling
 
 1. Add CSS styles to *styles/main.css*.
-2. Link it into your *index.html*.
+2. Link it into your *index.html* in the `head` of your html. You would do this by typing `link`. Atom will anticipate that you are using a link tag. Change the `href` to match the path to your .css file.
 
 #### 4.6 | Complete the checkpoints
 
-1. Show your instructors what you know! In the `checkpoints` folder, you will find a .txt file and a folder called `htmlcss` containing two files. These have some questions about things we have covered this week!
-2. In the .txt file, below each question, all you need to do is type your answer! If you're unsure, feel free to do some research, or write that you're not sure. All we're asking for is you try your best! 
-3. In the `htmlcss` folder, there are tasks in the html and css files. There is no need to delete the instuctions, just type your code below it!
+1. Show your instructors what you know! In the `checkpoints` folder, you will find a .txt file and a folder called `htmlcss` containing two .txt files. These have some questions about things we have covered this week!
+2. In the .txt file, there are questions about the terminal. Below each question, all you need to do is type your answer! If you're unsure, feel free to do some research, or write that you're not sure. All we're asking for is you try your best! 
+3. In the `htmlcss` folder, there are tasks in the html and css files. Please complete these tasks in those files. There is no need to delete the instuctions.
 
 ### 5 | "Uploading" your changes to GitHub
 
@@ -145,7 +145,7 @@ Now that your assignment is done, we'll use Git to post your work to GitHub.
 **IMPORTANT:** All of the following steps will occur in Terminal.
 
 1. Type `git add .` and press the RETURN (or ENTER) key. This tells Git that you want to stage your file updates.
-2. Type `git commit -m "completed prework 1 assignment"` and press the RETURN (or ENTER) key. This creates a snapshot of your changes (a commit) that can be referenced later.
+2. Type `git commit -m "completed week 1 assignment"` and press the RETURN (or ENTER) key. This creates a snapshot of your changes (a commit) that can be referenced later.
 3. Type `git push -u origin master` to send your updates to GitHub.
 
 ### 5 | Turning in our work through the Assignment App
@@ -154,11 +154,11 @@ Watch the [detailed video instructions](https://vimeo.com/199694700). If needed,
 
 1. Go to https://primeacademy.io/student.
 2. Login with your email address and password. You will see a dashboard with your assignments.
-3. Click on the **Prework-Week 1** link. A form will appear in a modal window.
-4. In a new browser tab, go to the GitHub repo for your completed assignment.
+3. Click on the **Tier 1-Week 1** link. A form will appear in a modal window.
+4. In a new browser tab, go to the **GitHub repo** for your completed assignment.
 5. Copy the URL in the browser bar.
 6. Return to the browser tab with the Prime assignment app.
-7. Paste your URL into the **Git Repo** input field.
+7. Paste your URL into the **Git Repo** input field, don't worry about the `site` input field for now, you can leave it blank.
 8. Optionally, add any comments you'd like to make to instructors in the **Comments** input field.
 9. Click the **Save** button to complete submission of the assignment.
 
