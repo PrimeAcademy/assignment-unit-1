@@ -25,7 +25,7 @@ For the assignment this week, you will step through the process of:
 Let's make a web page with some JavaScript using our new IDE, Atom!
 
 ### 1 | Creating folders for our work
-We recommend you create dedicated folders for your Prime prework assignments. Follow the instructions below to do so:
+We recommend you create dedicated folders for your Prime Tier 1 assignments. Call your folder something like *tier1*. Follow the instructions below to do so:
 
 Step | Instruction | Screen Shot
 --- | --- | ---
@@ -38,7 +38,7 @@ Step | Instruction | Screen Shot
 
 ### 2 | Getting our assignment onto our computer
 
-[Watch this video on how to "download"](https://vimeo.com/218468543) your assignment into the *tier1* folder you created. You can also read the written instructions below:
+[Watch this video on how to "download"](https://vimeo.com/218468543) your assignment into the *tier1* folder you created. You can also read the written instructions below: **Note:** The video may call the folder `prework`, but you can call your folder anything you want.
 
 1. Click on the *Fork* button in the upper right-hand corner of this webpage.
 2. Click to select your GitHub account in the modal window that appears by clicking on your profile picture. This will create a copy of this code under your account.
@@ -74,7 +74,7 @@ Inside of this folder, we've provided you with a few files, some of those files 
 #### Files Provided
 
 - [ ] *assignment/index.html*
-- [ ] *assignment/scripts/helloWorld.js* (*helloWorld.js* is inside of the *scripts* folder)
+- [ ] *assignment/scripts/helloWorld.js*
 - [ ] *assignment/styles/main.css*
 - [ ] *assignment/checkpoints/terminal.txt*
 - [ ] *assignment/checkpoints/htmlcss/index.html*
