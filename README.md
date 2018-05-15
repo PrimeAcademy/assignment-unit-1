@@ -75,7 +75,7 @@ Inside of this folder, we've provided you with a few files, some of those files 
 
 - [ ] *assignment/index.html*
 - [ ] *assignment/scripts/helloWorld.js*
-- [ ] *assignment/styles/main.css*
+- [ ] *assignment/styles/style.css*
 - [ ] *assignment/checkpoints/terminal.txt*
 - [ ] *assignment/checkpoints/htmlcss/index.html*
 - [ ] *assignment/checkpoints/htmlcss/style.css*
@@ -129,7 +129,7 @@ Step | Instruction | Screen Shot
 
 #### 4.5 | Add some styling
 
-1. Add CSS styles to *styles/main.css*.
+1. Add CSS styles to *styles/style.css*.
 2. Link it into your *index.html* in the `head` of your html. You would do this by typing `link`. Atom will anticipate that you are using a link tag. Change the `href` to match the path to your .css file.
 
 #### 4.6 | Complete the checkpoints
