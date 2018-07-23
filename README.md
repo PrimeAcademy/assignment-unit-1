@@ -134,7 +134,7 @@ Step | Instruction | Screen Shot
 
 #### 4.6 | Complete the checkpoints
 
-1. Show your instructors what you know! In the `checkpoints` folder, you will find a .txt file and a folder called `htmlcss` containing two .txt files. These have some questions about things we have covered this week!
+1. Show your instructors what you know! In the `checkpoints` folder, you will find a .txt file and a folder called `htmlcss` containing two files. These have some questions about things we have covered this week!
 2. In the .txt file, there are questions about the terminal. Below each question, all you need to do is type your answer! If you're unsure, feel free to do some research, or write that you're not sure. All we're asking for is you try your best! 
 3. In the `htmlcss` folder, there are tasks in the html and css files. Please complete these tasks in those files. There is no need to delete the instuctions.
 
