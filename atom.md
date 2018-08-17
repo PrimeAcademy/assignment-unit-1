@@ -34,8 +34,6 @@ To see what is installed by default or to enable it, go to the Preferences menu 
 
 You can install the community packages. Here is a small list of some suggested ones. Note, some packages need you to restart atom before they take effect.
 
-- [linter](https://atom.io/packages/linter)
-- [linter-jshint](https://atom.io/packages/linter-jshint)
 - [minimap](https://atom.io/packages/minimap)
 - [open-in-browser](https://atom.io/packages/open-in-browser)
 
