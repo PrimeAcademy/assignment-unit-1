@@ -23,7 +23,7 @@ For the assignment this week, you will step through the process of:
 
 ## Assignment
 
-**Note**: Please watch all the videos for Week 1 on [the Tier 1 site](fullstack.primeacademy.io) before starting the assignment. These videos contain important information! Feel free to refer back to these videos whenever you need them.
+**Note**: Please watch all the videos for Week 1 on [the Tier 1 site](http://fullstack.primeacademy.io) before starting the assignment. These videos contain important information! Feel free to refer back to these videos whenever you need them.
 
 Let's make a web page with some HTML, CSS, and JavaScript using our new IDE, Atom!
 
