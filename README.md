@@ -15,61 +15,43 @@ Now, for your first assignment!
 
 For the assignment this week, you will step through the process of:
 
-* setting up a simple page with JavaScript
-* posting it to the Internet
-* using your Mac's built-in Terminal to navigate through folders, open files, and post your work
-* turning it in through Prime's Assignment App
+* setting up .html, .css, and .js files and connecting them
+* testing your work in the browser
+* using git to fork/clone repositories from GitHub and getting your work published to your GitHub account
+* using the command line and your Mac's built-in Terminal
+* turning your assignment in through Prime's Assignment App
 
 ## Assignment
 
-Let's make a web page with some JavaScript using our new IDE, Atom!
+**Note**: Please watch all the videos for Week 1 on [the Tier 1 site](fullstack.primeacademy.io) before starting the assignment. These videos contain important information! Feel free to refer back to these videos whenever you need them.
 
-### 1 | Creating folders for our work
-We recommend you create dedicated folders for your Prime Tier 1 assignments. Call your folder something like *tier1*. Follow the instructions below to do so:
+Let's make a web page with some HTML, CSS, and JavaScript using our new IDE, Atom!
 
-Step | Instruction | Screen Shot
---- | --- | ---
-1 | Open the Finder application. | ![](images/finder_small-crop.png)
-2 | Select Go > Home from the menu. | ![](images/finder-home_crop.png)
-3 | Select File > New Folder to create a *prime* folder for Prime work | ![](images/finder-new-folder.png)
-4 | Type `prime` and hit the RETURN (or ENTER) key to name the new folder. |![](images/finder-prime-folder.png)
-5 | Double-click on the *prime* folder to open it. | *intentionally blank* :ok:
-6 | Create a *tier1* folder inside of the *prime* folder. **HINT:** Just like we did in Step 3 and 4. |
+### 1 | Create a folder for your work
+We recommend you create a dedicated folder for your Prime Tier 1 assignments. Call your folder something like *tier1*. For step-by-step instructions, check out the Week 1 videos, or take a look [here](extended-instructions.md#Step_1). You can clone your assignment repos into this folder (more on this in the next step).
 
-### 2 | Getting our assignment onto our computer
+### 2 | Getting your assignment onto your computer
 
-[Watch this video on how to "download"](https://vimeo.com/218468543) your assignment into the *tier1* folder you created. You can also read the written instructions below: **Note:** The video may call the folder `prework`, but you can call your folder anything you want.
+[Watch this video on how to fork and clone](https://vimeo.com/218468543) your assignment into the *tier1* folder you created. You can also read the written instructions [here](extended-instructions.md#Step_2). 
 
-1. Click on the *Fork* button in the upper right-hand corner of this webpage.
-2. Click to select your GitHub account in the modal window that appears by clicking on your profile picture. This will create a copy of this code under your account.
-**NOTE:** You will immediately be navigated to your copy on GitHub.
-3. Click on the green *Clone or download* button.
-4. Click on the clipboard icon button to copy the Git URL for this repo.
-5. Open the Terminal application on your computer. This can be found in Applications > Utilities > Terminal.
-![](images/applicationUtilities_450.png)
-![](images/applicationTerminal_450.png)
-6. Type `cd ~/prime/tier1` in the Terminal application and press the RETURN (or ENTER) key to navigate to your tier1 folder.
-7. Type `git clone `. **IMPORTANT:** Leave a space after the word "clone".
-8. Press COMMAND and V keys at the same time to paste your Git URL next to the words you just typed.
-9. Press the RETURN (or ENTER) key to execute the typed command. This will create a local copy of your GitHub-hosted repo.
-10. Type `cd prime-pw-week-1-assignment` to navigate into your local Git repo.
+**Note:** The video may call the folder `prework`, but you can call your folder anything you want.
 
-### 3 | Opening our project in Atom
+### 3 | Opening your project in Atom
 
 **Option 1: Command Line Instructions**
-1. In the Terminal, type `atom .` to open up your current directory in Atom.
+1. In the Terminal, type `atom .` to open up your current directory in Atom. If this doesn't work, take a look at [these instructions](https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x/23666354#23666354) to install this command.
 
 **Option 2: From Atom Instructions**
 1. Open Atom.
 2. Select File > Open from the main menu and browse to the *prime-pw-week-1-assignment* folder to open. You'll see your folder listed in the left panel in Atom.
 
-### 4 | Creating our web app
+### 4 | Completing your assignment
 
 Inside of our project, is an *assignment* folder.
 
 Inside of this folder, we've provided you with a few files, some of those files are inside of other folders.
 
-**IMPORTANT:** Don't edit or worry about any files other than those inside of the *assignment* directory.
+**IMPORTANT:** Don't edit any files other than those inside of the *assignment* folder.
 
 #### Files Provided
 
@@ -80,20 +62,17 @@ Inside of this folder, we've provided you with a few files, some of those files 
 - [ ] *assignment/checkpoints/htmlcss/index.html*
 - [ ] *assignment/checkpoints/htmlcss/style.css*
 
-#### 4.1 | Editing our index.html file
+#### 4.1 | Editing your first index.html file
 
 Now, let's get into our HTML file.
 
-Step | Instruction | Screen Shot
---- | --- | ---
-1 | Open *index.html* by double-clicking on its name in the left sidebar. | ![atom1](images/atom-open-file.png)
-2 | Type in `html` and you'll see that Atom anticipates that you are trying to create an HTML file. |![atom1](images/atom_1.png)
-3 | Press the TAB key and you'll see that Atom gives you some scaffolding for a basic HTML page. |![atom2](images/atom_2.png)
-4 | Let's give our page a `title` of "Hello World" and add a `h1` in the body as well. |![atom3](images/atom_3.png)
-5 | You may have noticed that Atom tries to anticipate what you are trying to add. This is because Atom knows it is an HTML file. Add a p tag by typing `p` and press TAB. Note that Atom finishes the opening tab as well as provides you with the closing p tag. |![atom3](images/atom_3.png)
-6 | Give this paragraph tag some text content: "Check the console for JavaScript output". | *intentionally blank*
+1. Create an `index.html` file. The page should have "Hello World" in the `title` tag (in the `<head>`) and in an `<h1>` in the `<body>`.
 
-#### 4.2 | Editing our JavaScript file
+2. Put in a paragraph tag saying "Check the console for JavaScript output".
+
+If you need help with any of these steps, look [here](extended-instructions.md#Step_4.1).
+
+#### 4.2 | Editing your JavaScript file
 
 1. Open *helloWorld.js*.
 2. Add the following lines:
@@ -108,60 +87,39 @@ sayHello();
 
 This will display in a part of the browser called the console. We'll see this shortly.
 
-#### 4.3 | Connecting our JavaScript and HTML
+#### 4.3 | Connecting your JavaScript and HTML
 
 We'll need to "source" the *.js* file in the HTML. This is what connects the JavaScript to the HTML. This is similar to how you used `link` previously to add CSS to an HTML file.
 
-1. In the `head` section of the HTML, start typing `src` and Atom will anticipate you sourcing in a script file.
-![atom4](images/atom_4.png)
-2. "Source" in our js file as follows:
-![atom4](images/atom_5.png)
-3. Save all your work and let's get ready to see how things are working!
+To see how to do this, refer to this week's video content or look [here](extended-instructions.md#Step_4.3).
 
-#### 4.4 | Checking our work
+#### 4.4 | Checking your work
 
-Step | Instruction | Screen Shot
---- | --- | ---
-1 | Open the *index.html* file in Chrome. **NOTE:** There are a few ways to do this, but one way is to type and execute `open assignment/index.html` in the Terminal. | *intentionally blank*
-2 | Right-click anywhere on the webpage and choose Inspect from the menu. |![chrome_0](images/chrome_0.png)
-2 (alt) | Alternatively, this can also be opened by choosing View > Developer > Developer Tools. |![chrome_1](images/chrome_1.png)
-3 | In the Dev Tools panel, click on the "Console" tab to activate it. You'll see in there your "Hello World!" message. |![chrome_1](images/chrome_2.png)
+Open your index.html file in Chrome. Open the console, and see if it says "Hello World!".
+
+For step-by-step instructions, check out this week's video content or look [here](extended-instructions.md#Step_4.4)
 
 #### 4.5 | Add some styling
 
-1. Add CSS styles to *styles/style.css*.
+1. Add CSS styles to *styles/style.css*. You can do anything! Add a fun background color, change the color of the text, whatever you want!
 2. Link it into your *index.html* in the `head` of your html. You would do this by typing `link`. Atom will anticipate that you are using a link tag. Change the `href` to match the path to your .css file.
 
 #### 4.6 | Complete the checkpoints
 
-1. Show your instructors what you know! In the `checkpoints` folder, you will find a .txt file and a folder called `htmlcss` containing two files. These have some questions about things we have covered this week!
+1. Show your instructors what you know! In the `checkpoints` folder, you will find a .txt file and a folder called `htmlcss` containing two files. Each file has questions/tasks for you to complete in the file.
 2. In the .txt file, there are questions about the terminal. Below each question, all you need to do is type your answer! If you're unsure, feel free to do some research, or write that you're not sure. All we're asking for is you try your best! 
-3. In the `htmlcss` folder, there are tasks in the html and css files. Please complete these tasks in those files. There is no need to delete the instuctions.
+3. In the `htmlcss` folder, there are tasks in the .html and .css files. Please complete these tasks in those files. There is no need to delete the instuctions.
 
 ### 5 | "Uploading" your changes to GitHub
 
 Now that your assignment is done, we'll use Git to post your work to GitHub.
 
-**IMPORTANT:** All of the following steps will occur in Terminal.
+You can find detailed instructions on how to do this in this week's video content, or written instructions [here](extended-instructions.md#Step_5).
 
-1. Type `git add .` and press the RETURN (or ENTER) key. This tells Git that you want to stage your file updates.
-2. Type `git commit -m "completed week 1 assignment"` and press the RETURN (or ENTER) key. This creates a snapshot of your changes (a commit) that can be referenced later.
-3. Type `git push -u origin master` to send your updates to GitHub.
+### 6 | Turning in our work through the Assignment App
 
-### 5 | Turning in our work through the Assignment App
+Watch the [detailed video instructions](https://vimeo.com/199694700). If needed, you can also reference the written instructions [here](extended-instructions.md#Step_6).
 
-Watch the [detailed video instructions](https://vimeo.com/199694700). If needed, you can also reference the written instructions below:
-
-1. Go to https://primeacademy.io/student.
-2. Login with your email address and password. You will see a dashboard with your assignments.
-3. Click on the **Tier 1-Week 1** link. A form will appear in a modal window.
-4. In a new browser tab, go to the **GitHub repo** for your completed assignment.
-5. Copy the URL in the browser bar.
-6. Return to the browser tab with the Prime assignment app.
-7. Paste your URL into the **Git Repo** input field, don't worry about the `site` input field for now, you can leave it blank.
-8. Optionally, add any comments you'd like to make to instructors in the **Comments** input field.
-9. Click the **Save** button to complete submission of the assignment.
-
-### 6 | Answer Slack Discussion Question
-Make sure that you answer this week's Slack discussion question (found on the Tier 1 site) in your cohort's Slack channel!
+### 7 | Answer Slack Discussion Question
+Make sure that you answer this week's Slack discussion question (found each week in the left sidebar of the Tier 1 site) in your cohort's Slack channel!
 
