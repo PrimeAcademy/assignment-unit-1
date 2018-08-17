@@ -28,11 +28,11 @@ For the assignment this week, you will step through the process of:
 Let's make a web page with some HTML, CSS, and JavaScript using our new IDE, Atom!
 
 ### 1 | Create a folder for your work
-We recommend you create a dedicated folder for your Prime Tier 1 assignments. Call your folder something like *tier1*. For step-by-step instructions, check out the Week 1 videos, or take a look [here](extended-instructions.md#Step_1). You can clone your assignment repos into this folder (more on this in the next step).
+We recommend you create a dedicated folder for your Prime Tier 1 assignments. Call your folder something like *tier1*. For step-by-step instructions, check out the Week 1 videos, or take a look [here](extended-instructions.md). You can clone your assignment repos into this folder (more on this in the next step).
 
 ### 2 | Getting your assignment onto your computer
 
-[Watch this video on how to fork and clone](https://vimeo.com/218468543) your assignment into the *tier1* folder you created. You can also read the written instructions [here](extended-instructions.md#Step_2). 
+[Watch this video on how to fork and clone](https://vimeo.com/218468543) your assignment into the *tier1* folder you created. You can also read the written instructions [here](extended-instructions.md) (look for Step 2). 
 
 **Note:** The video may call the folder `prework`, but you can call your folder anything you want.
 
@@ -70,7 +70,7 @@ Now, let's get into our HTML file.
 
 2. Put in a paragraph tag saying "Check the console for JavaScript output".
 
-If you need help with any of these steps, look [here](extended-instructions.md#Step_4.1).
+If you need help with any of these steps, look [here](extended-instructions.md) (look for Step 4.1).
 
 #### 4.2 | Editing your JavaScript file
 
@@ -91,13 +91,13 @@ This will display in a part of the browser called the console. We'll see this sh
 
 We'll need to "source" the *.js* file in the HTML. This is what connects the JavaScript to the HTML. This is similar to how you used `link` previously to add CSS to an HTML file.
 
-To see how to do this, refer to this week's video content or look [here](extended-instructions.md#Step_4.3).
+To see how to do this, refer to this week's video content or look [here](extended-instructions.md) (look for Step 4.3).
 
 #### 4.4 | Checking your work
 
 Open your index.html file in Chrome. Open the console, and see if it says "Hello World!".
 
-For step-by-step instructions, check out this week's video content or look [here](extended-instructions.md#Step_4.4)
+For step-by-step instructions, check out this week's video content or look [here](extended-instructions.md) (look for Step 4.4).
 
 #### 4.5 | Add some styling
 
@@ -114,11 +114,11 @@ For step-by-step instructions, check out this week's video content or look [here
 
 Now that your assignment is done, we'll use Git to post your work to GitHub.
 
-You can find detailed instructions on how to do this in this week's video content, or written instructions [here](extended-instructions.md#Step_5).
+You can find detailed instructions on how to do this in this week's video content, or written instructions [here](extended-instructions.md) (look for Step 5).
 
 ### 6 | Turning in our work through the Assignment App
 
-Watch the [detailed video instructions](https://vimeo.com/199694700). If needed, you can also reference the written instructions [here](extended-instructions.md#Step_6).
+Watch the [detailed video instructions](https://vimeo.com/199694700). If needed, you can also reference the written instructions [here](extended-instructions.md) (look for Step 6).
 
 ### 7 | Answer Slack Discussion Question
 Make sure that you answer this week's Slack discussion question (found each week in the left sidebar of the Tier 1 site) in your cohort's Slack channel!
