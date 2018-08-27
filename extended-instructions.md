@@ -1,3 +1,5 @@
+*Note*: There are not instructions in this file for every step of the assignment. 
+
 ### Step 1:
 
 Step | Instruction | Screen Shot
