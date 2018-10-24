@@ -27,43 +27,19 @@ Step | Instruction | Screen Shot
 9. Press the RETURN (or ENTER) key to execute the typed command. This will create a local copy of your GitHub-hosted repo.
 10. Type `cd prime-pw-week-1-assignment` to navigate into your local Git repo.
 
-### Step 4.1:
-
-Step | Instruction | Screen Shot
---- | --- | ---
-1 | Open *index.html* by double-clicking on its name in the left sidebar. | ![atom1](images/atom-open-file.png)
-2 | Type in `html` and you'll see that Atom anticipates that you are trying to create an HTML file. |![atom1](images/atom_1.png)
-3 | Press the TAB key and you'll see that Atom gives you some scaffolding for a basic HTML page. |![atom2](images/atom_2.png)
-4 | Let's give our page a `title` of "Hello World" and add a `h1` in the body as well. |![atom3](images/atom_3.png)
-5 | You may have noticed that Atom tries to anticipate what you are trying to add. This is because Atom knows it is an HTML file. Add a p tag by typing `p` and press TAB. Note that Atom finishes the opening tab as well as provides you with the closing p tag. |![atom3](images/atom_3.png)
-6 | Give this paragraph tag some text content: "Check the console for JavaScript output". | *intentionally blank*
-
 ### Step 4.3:
 
-1. In the `head` section of the HTML, start typing `src` and Atom will anticipate you sourcing in a script file.
-![atom4](images/atom_4.png)
-2. "Source" in our js file as follows:
-![atom4](images/atom_5.png)
-3. Save all your work and let's get ready to see how things are working!
-
-### Step 4.4:
-
-Step | Instruction | Screen Shot
---- | --- | ---
-1 | Open the *index.html* file in Chrome. **NOTE:** There are a few ways to do this, but one way is to type and execute `open assignment/index.html` in the Terminal. | *intentionally blank*
-2 | Right-click anywhere on the webpage and choose Inspect from the menu. |![chrome_0](images/chrome_0.png)
-2 (alt) | Alternatively, this can also be opened by choosing View > Developer > Developer Tools. |![chrome_1](images/chrome_1.png)
-3 | In the Dev Tools panel, click on the "Console" tab to activate it. You'll see in there your "Hello World!" message. |![chrome_1](images/chrome_2.png)
+1. Open the *index.html* file in Chrome. **NOTE:** There are a few ways to do this, but one way is to type and execute `open assignment/index.html` in the Terminal. | *intentionally blank*
 
 ### Step 5:
 
-**IMPORTANT:** All of the following steps will occur in Terminal. tBefore doing the steps below, type `pwd` and RETURN (or ENTER). A file path will display in the terminal. The end of the path should say `prime-pw-week-1-assignment`. If it doesn't, navigate to the folder containing this week's assignment.
+**IMPORTANT:** All of the following steps will occur in Terminal. Before doing the steps below, type `pwd` and RETURN (or ENTER). A file path will display in the terminal. The end of the path should say `prime-pw-week-1-assignment`. If it doesn't, navigate to the folder containing this week's assignment.
 
 1. Type `git add .` and press the RETURN (or ENTER) key. This tells Git that you want to stage your file updates.
 2. Type `git commit -m "completed week 1 assignment"` and press the RETURN (or ENTER) key. This creates a snapshot of your changes (a commit) that can be referenced later.
 3. Type `git push -u origin master` to send your updates to GitHub.
 
-### Step 6:
+### Step 7:
 
 1. Go to https://primeacademy.io/student.
 2. Login with your email address and password. You will see a dashboard with your assignments.
