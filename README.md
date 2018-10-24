@@ -87,6 +87,8 @@ Now that we have content in our HTML file, let's make it look nice with some sty
 
 - Link your styles to your index.html file in the `head` of your HTML. Using a `<link>` tag (type `link` in your HTML and hit `enter`, Atom will create the tag for you), change the `href` to match the path to your CSS file. (Take a look [here](https://www.w3schools.com/tags/tag_link.asp) for more information).
 
+- Here is an example of what your assignment could look like: ![](images/mockup.png)
+
 #### 4.3 | Checking your work
 
 Open your index.html file in Chrome. You should see all of the content you created in your HTML file, with the styles you created in your CSS file.
