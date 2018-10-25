@@ -100,19 +100,17 @@ For step-by-step instructions, check out this week's video content or look [here
 
 ### 5 | Hello World! 
 
-Our assignment also contains a `helloWorld.js` file. For this stretch goal, we will be working with this file.
-
-A "hello world" is a common first step in learning to code, and the first program many programmers write.
+Our assignment also contains a `helloWorld.js` file. A "hello world" is a common first step in learning to code, and the first program many programmers write.
 
 In the video for this week, we use a `console.log()` to get messages from our JavaScript file to display in the browser's console.
 
 1. You will need to source in the `helloWorld.js` file into your `index.html` file.
 
-1. Refer back to the video to cover how to source in and get "hello world" to log in the browser console for your assignment! More information on `console.log` can be found [here](https://www.w3schools.com/jsref/met_console_log.asp).
+2. Refer back to the video to cover how to source in and get "hello world" to log in the browser console for your assignment! More information on `console.log` can be found [here](https://www.w3schools.com/jsref/met_console_log.asp).
 
-2. Be sure to test your work by opening your browser console for this assignment.
+3. Be sure to test your work by opening your browser console for this assignment.
 
-3. "Upload" these changes to GitHub (the same way you did in step 5).
+4. "Upload" these changes to GitHub (the same way you did in step 5).
 
 ### 6 | "Uploading" your changes to GitHub
 
