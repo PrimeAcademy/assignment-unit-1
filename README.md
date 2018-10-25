@@ -63,9 +63,7 @@ Inside of this folder, we've provided you with a few files, some of those files 
 
 #### 4.1 | Editing your index.html file
 
-Now, let's look at our HTML file.
-
-- Inside of the HTML file are comments with tasks for you to complete. Write the code below the comment (no need to delete the comment), like this:
+Inside of the `index.html` file are comments with tasks for you to complete. Write the code below the comment (no need to delete the comment), like this:
 
 ```HTML
 <!-- Create a header with an h1 containing your name -->
@@ -100,25 +98,27 @@ For step-by-step instructions, check out this week's video content or look [here
 1. Show your instructors what you know! In the `checkpoints` folder, you will find a `terminal.txt` file.
 2. In the `terminal.txt` file, there are questions about the terminal, which we learned about in the video content for this week. Below each question, all you need to do is type your answer! If you're unsure, feel free to do some research, or write that you're not sure. All we're asking for is you try your best! 
 
-### 5 | "Uploading" your changes to GitHub
-
-Now that your assignment is done, we'll use Git to post your work to GitHub.
-
-You can find detailed instructions on how to do this in this week's video content, or written instructions [here](extended-instructions.md) (look for Step 5).
-
-### 6 | Completing **Optional** Stretch Goal
+### 5 | Hello World! 
 
 Our assignment also contains a `helloWorld.js` file. For this stretch goal, we will be working with this file.
 
 A "hello world" is a common first step in learning to code, and the first program many programmers write.
 
-In the video for this week, we use a `console.log` to get messages from our JavaScript file to display in the browser's console.
+In the video for this week, we use a `console.log()` to get messages from our JavaScript file to display in the browser's console.
 
-1. Refer back to the video to cover how to get "hello world" to log in the browser console for your assignment! More information on `console.log` can be found [here](https://www.w3schools.com/jsref/met_console_log.asp).
+1. You will need to source in the `helloWorld.js` file into your `index.html` file.
+
+1. Refer back to the video to cover how to source in and get "hello world" to log in the browser console for your assignment! More information on `console.log` can be found [here](https://www.w3schools.com/jsref/met_console_log.asp).
 
 2. Be sure to test your work by opening your browser console for this assignment.
 
 3. "Upload" these changes to GitHub (the same way you did in step 5).
+
+### 6 | "Uploading" your changes to GitHub
+
+Now that your assignment is done, we'll use Git to post your work to GitHub.
+
+You can find detailed instructions on how to do this in this week's video content, or written instructions [here](extended-instructions.md) (look for Step 5).
 
 ### 7 | Turning in our work through the Assignment App
 
