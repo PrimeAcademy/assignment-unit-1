@@ -2,14 +2,14 @@
 
 **NOTE:** If you're using your first Mac computer, you might find [this Windows to Mac conversion article](https://support.apple.com/en-us/HT204216) useful before diving into this content.
 
-Let's install Atom and a few useful plugins to help you work more affectively. Within Atom is where you'll be writing your code so it is kinda a big deal.
+Let's install Atom and a few useful plugins to help you work more affectively. You will be writing your code in Atom, so it's important to get it set up right away!
 
 ## Steps
 
 1. [Download Atom](#1--download-atom)
 2. [Explore Default Functionality / Core Packages](#2--explore-default-functionality--core-packages)
 3. [Install Community Packages](#3--install-community-packages)
-4. [Install Command Line Tools]
+4. [Install Shell Commands](#4--install-shell-commands)
 
 ### 1 | Download Atom
 
@@ -21,9 +21,9 @@ Let's install Atom and a few useful plugins to help you work more affectively. W
 ![](images/keep-in-doc.png)
 
 ### 2 | Explore Default Functionality / Core Packages
-Atom is the "hackable text editor". This means that the community that uses it, extends it via packages they write to add new functionality. As these packages become popular the maintainers (programmers that work on and are responsible for a software project) of Atom can decide to make functionality default.
+Atom is the "hackable text editor". This means that the community that uses it extends it via packages they write to add new functionality. As these packages become popular the maintainers (programmers that work on and are responsible for a software project) of Atom can decide to make functionality default.
 
-To see what is installed by default or to enable it, go to the Preferences menu (also called settings):
+To see what is installed by default, go to the Preferences menu (also called settings):
 
 1. In the Atom menu, select Preferences. A new tab will open called **Settings**. On the left hand side of this screen you should see a series of options: Settings, Keybindings, Packages, Themes, Updates, and Install.
 2. Select **Packages**.
