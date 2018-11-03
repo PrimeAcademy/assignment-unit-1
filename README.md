@@ -57,7 +57,7 @@ Inside of this folder, we've provided you with a few files, some of those files 
 #### Files Provided
 
 - *assignment/index.html* (base functionality - required)
-- *assignment/helloWorld.js* (stretch goals - optional)
+- *assignment/helloWorld.js* (base functionality - required)
 - *assignment/style.css* (base functionality - required)
 - *assignment/checkpoints/terminal.txt* (base functionality - required)
 
