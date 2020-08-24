@@ -4,7 +4,7 @@
 
 # 2 - What is the command for changing directories?
 
-# 3 - What is the command for going back a folder (to a parent directory)?
+# 3 - What is the command for going "up" a folder (to a parent directory)?
 
 # 4 - What is a quick way to create a new folder?
 
