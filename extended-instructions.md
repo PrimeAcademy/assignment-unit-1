@@ -41,7 +41,7 @@ Step | Instruction | Screen Shot
 
 ### Step 7:
 
-1. Go to https://primeacademy.io/student.
+1. Go to https://portal.primeacademy.io/
 2. Login with your email address and password. You will see a dashboard with your assignments.
 3. Click on the **Tier 1-Week 1** link. A form will appear in a modal window.
 4. In a new browser tab, go to the **GitHub repo** for your completed assignment.
