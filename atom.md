@@ -35,7 +35,6 @@ To see what is installed by default, go to the Preferences menu (also called set
 You can install the community packages. Here is a small list of some suggested ones. Note, some packages need you to restart atom before they take effect.
 
 - [minimap](https://atom.io/packages/minimap)
-- [open-in-browser](https://atom.io/packages/open-in-browser)
 
 There are two ways to install community packages in Atom. The first way is described below. If you are interested in installing things via the command line, there is an [atom package manager (apm)](http://flight-manual.atom.io/using-atom/sections/atom-packages/#command-line).
 
