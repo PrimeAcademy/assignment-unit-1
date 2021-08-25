@@ -1,6 +1,26 @@
 # Prime Tier 1 Week 1
 
-Welcome to Tier 1 at Prime Digital Academy! In week 1, we're getting you set up with the basics.
+## Topics Covered
+
+Welcome to Tier 1 at Prime Digital Academy! In week 1, we're getting you set up with the tools and introductory topics to get your rolling.
+
+### For the assignment this week, you will step through the process of:
+
+* using git to fork/clone repositories from GitHub and getting your work published to your GitHub account
+* setting up files and connecting them
+* testing your work in the browser
+* using the command line and your Mac's built-in Terminal
+* turning your assignment in through Prime's Assignment Portal
+
+## Watch The Videos First!
+
+> As noted in class, please watch and work your way through all of the videos for Week 1 on [the Tier 1 site](http://fullstack.primeacademy.io/w1) before starting the assignment. These videos contain important information that will help you complete the assignment. Feel free to refer back to these videos whenever you need them.
+
+---
+
+## Assignment
+
+## Set-up Your Code Editor
 
 Click the link below to set up Atom:
 
@@ -10,21 +30,6 @@ This will take some time and will require installing some programs on your Mac. 
 
 ---
 
-#### Now, for your first assignment!
-
-## Topics Covered
-
-For the assignment this week, you will step through the process of:
-
-* using git to fork/clone repositories from GitHub and getting your work published to your GitHub account
-* setting up files and connecting them
-* testing your work in the browser
-* using the command line and your Mac's built-in Terminal
-* turning your assignment in through Prime's Assignment Portal
-
-## Assignment
-
-**Note**: Please watch all the videos for Week 1 on [the Tier 1 site](http://fullstack.primeacademy.io) before starting the assignment. These videos contain important information that will help you complete the assignment. Feel free to refer back to these videos whenever you need them.
 
 ### 1 | Create a folder for your work
 We recommend you create a dedicated folder for your Prime Tier 1 assignments. Call your folder something like *tier1*. For step-by-step instructions, check out the Week 1 videos, or take a look at the Step 1 [extended instructions](extended-instructions.md). You can clone your assignment repos into this folder (more on this in the next step).
