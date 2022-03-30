@@ -29,22 +29,12 @@ Step | Instruction | Screen Shot
 
 ### Step 4.3:
 
-1. Open the *index.html* file in Chrome. 
-
-**NOTE:** There are a few ways to open your assignment in Chrome:
-
-**Option 1: Open from the Finder**
-- Right click on your file in Atom
-- Select Reveal in Finder
-- Double click on the file in your finder window, to open in Chrome
-
-![screencast](./images/open-chrome-from-finder.gif)
+To open the *index.html* file in Chrome. 
 
 
-**Option 2: Open from Terminal**
-- Open your _Terminal_ app
-- `cd` into your project directory
-- Use the `open` command to open the file in Chrome
+1. Open your _Terminal_ app
+2. `cd` into your project directory
+3. Use the `open` command to open the file in Chrome
 
 ![screencast](./images/open-chrome-from-terminal.gif)
 
