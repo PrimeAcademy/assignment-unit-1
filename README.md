@@ -96,10 +96,9 @@ Here is the pattern. Be sure you are in the project folder!
 
 Now that we have content in our HTML file, let's make it look nice with some styling!
 
+- The CSS file is already linked to the HTML file using a `link` tag.
 - There are comments in the `style.css` file. You can write your styles below the comments.
 - You can also add more styles if you want, but make sure you include the styles in the directions, those are required!
-- Link your styles to your `index.html` file in the `head` of your HTML using the `link` tag. You did this for your Prime Resume Application, plus the videos from this week demonstrated how to do this.
-  - [Here is a quick reference](https://www.w3schools.com/tags/tag_link.asp)
 
 *When you're done, make another "`commit`" with `git`.*
 
