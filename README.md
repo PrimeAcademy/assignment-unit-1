@@ -1,4 +1,4 @@
-# Prime Tier 1 Week 1 Assignment
+# Unit 1: Git, HTML/CSS, Hello World
 
 **Please watch all the videos for Week 1 on [the Tier 1 site](http://fullstack.primeacademy.io) before starting the assignment.** 
 
