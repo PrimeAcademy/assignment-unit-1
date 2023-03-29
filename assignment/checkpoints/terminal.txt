@@ -17,6 +17,6 @@ touch
 # 8 - Why would you run the command 'git status'?
 To show what changes have been made and what has been staged, this will help to know what needs to be committed
 # 9 - What does the command 'git add .' do?
-moves everything in your file to staging
+moves everything in your directory to staging
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-git push
+git push 

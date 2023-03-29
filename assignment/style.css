@@ -1,22 +1,31 @@
+    /* Give your page a fun background color */
+
 body {
     background-color: rgb(253, 120, 144);
     color:black;
     font-family:Arial, Helvetica, sans-serif;
 }
-    /* Give your page a fun background color */
     
-h1 {
-    background-color: rgb(202, 199, 199);
-    text-align: center;
-}
+
     
 /* Make the header and footer a different color from the background */
+header, footer {
+    background-color:rgb(202, 199, 199) ;
+}
+/* Align the h1 containing your name in the center of the header*/
+
+h1 {
+    
+    text-align: center;
+}
+/* Make your p tag a different color and italic */
 
 p {
-    background-color:rgb(202, 199, 199);
-    color:white;
+    
+    color:green;
     font-style: italic;
 }
+/* Put a border around your image */
 
 img {
     width:18%;
@@ -24,13 +33,10 @@ img {
     border-style:solid;
     border-color:rgb(202, 199, 199);
 }
+/* Change the font-family of your list */
+
 ul {
     font-family: 'Courier New', Courier, monospace;
 }
-/* Align the h1 containing your name in the center of the header*/
 
-/* Make your p tag a different color and italic */
 
-/* Put a border around your image */
-
-/* Change the font-family of your list */
