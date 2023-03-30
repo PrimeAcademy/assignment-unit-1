@@ -1,11 +1,142 @@
 /* Give your page a fun background color */
+* {
+  margin: 0;
+  padding: 0;
+}
 
-/* Make the header and footer a different color from the background */
+body {
+  background-color: #A5F3FC;
+  font-family: 'Poppins', sans-serif;
+}
 
-/* Align the h1 containing your name in the center of the header*/
+a {
+  text-decoration: none;
+  color: #C084FC; 
+}
 
-/* Make your p tag a different color and italic */
+@keyframes animate {
+0% {
+  box-shadow: 0 10px 15px -3px #1D4ED8 , 0 4px 6px -4px rgb(0 0 0 /0.1);
+} 50% {
+  box-shadow: 10px -10px -15px 3px #1D4ED8 , 0 4px 6px -4px rgb(0 0 0);
+}
+}
 
-/* Put a border around your image */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  margin-bottom: 8rem;
+  padding: 4rem;
+  border-radius: 2rem;
+  color: #3FBDFF;
+  background-color: #FEFF86;
+  height: 20vh;
+  box-shadow: 0 10px 15px -3px #1D4ED8 , 0 4px 6px -4px rgb(0 0 0 /0.1);
+}
 
-/* Change the font-family of your list */
+.right {
+  margin-left: 20rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  background-color: #3FBDFF;
+  position: relative;
+  height: 80vh;
+}
+
+
+.about-container {
+  color: #F87171;
+  font-weight: 700;
+  margin-right: 4rem;
+  padding: 3rem 2rem;
+  background-color: #FEFF86;
+  border-radius: 2rem;
+  display: flex;
+  justify-items: start;
+  align-content: center;
+  width: 50vw;
+  box-shadow: 0 10px 15px -3px #1D4ED8 , 0 4px 6px -4px rgb(0 0 0 /0.1);
+  position: absolute;
+  top: -10%;
+  left: 10%;
+}
+
+ul {
+  font-size: 2rem;
+}
+
+li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+
+.image-container {
+  padding: 2rem;
+  border-radius: 2rem;
+  position: absolute;
+  right: 10%;
+}
+
+img.self {
+  height: 40rem;
+  border-radius: 2rem;
+  /* width: 20rem; */
+}
+
+footer {
+  width: 100%;
+  /* height: 20vh; */
+  background-color: #3FBDFF;
+  padding: 2rem;
+}
+
+.quote {
+  color: white;
+}
+
+.cursive {
+  padding: 2rem;
+  font-family: 'Fasthand', cursive;
+  font-size: 2rem;
+  color: white;
+}
+
+
+/* media querries  */
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  .right {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+  font-size: 3rem;
+}
+  .right {
+    margin-left: 0;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+}
