@@ -17,9 +17,14 @@ p{
 }
 
 /* Put a border around your image */
-img{
-    border: 5cqh;
+h2{
+    border-style: solid;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 
 /* Change the font-family of your list */
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
