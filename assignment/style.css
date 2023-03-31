@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -17,7 +18,7 @@ a {
   color: #C084FC; 
 }
 
-@keyframes animate {
+@keyframes animate-card {
 0% {
   box-shadow: 0 10px 15px -3px #1D4ED8 , 0 4px 6px -4px rgb(0 0 0 /0.1);
 } 50% {
@@ -31,11 +32,9 @@ header {
   align-items: center;
   margin: 2rem;
   margin-bottom: 8rem;
-  padding: 4rem;
   border-radius: 2rem;
   color: #3FBDFF;
   background-color: #FEFF86;
-  height: 20vh;
   box-shadow: 0 10px 15px -3px #1D4ED8 , 0 4px 6px -4px rgb(0 0 0 /0.1);
 }
 
@@ -44,7 +43,7 @@ header {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 7rem;
 }
 
 
@@ -54,7 +53,8 @@ h1 {
   margin-bottom: 4rem;
   background-color: #3FBDFF;
   position: relative;
-  height: 80vh;
+  max-height: 80vh;
+  min-height: 70vh;
   width: 100%;
 }
 
@@ -77,7 +77,7 @@ h1 {
 }
 
 ul {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 li {
@@ -96,12 +96,10 @@ li {
 img.self {
   height: 40rem;
   border-radius: 2rem;
-  /* width: 20rem; */
 }
 
 footer {
   width: 100%;
-  /* height: 20vh; */
   background-color: #3FBDFF;
   padding: 2rem;
 }
@@ -129,6 +127,9 @@ footer {
     height: 100vh;
   }
   .about-container {
+    padding: 1rem;
+  }
+  .ul {
     font-size: 1rem;
   }
   .right {
@@ -137,6 +138,9 @@ footer {
 }
 
 @media screen and (max-width: 742px) {
+  header {
+    padding: 1rem;
+  }
   h1 {
   font-size: 3rem;
 }
@@ -146,9 +150,28 @@ footer {
 
   .container {
     flex-direction: column-reverse;
+    max-height: 50vh;
     height: 50vh;
+    min-height: 50vh;
+    margin-bottom: 0;
   }
   .about-container {
-    font-size: 0.5rem;
+    margin-bottom: 1rem;
+    position: static;
   }
+  ul {
+    font-size: 0.80rem;
+  }
+
+  img.self {
+    height: 20rem;
+  }
+  footer {
+    padding-top: 4rem;
+    font-size: 0.75rem;
+  }
+
+  .cursive {
+  font-size: 1rem;
+}
 }
