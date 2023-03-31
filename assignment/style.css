@@ -3,9 +3,15 @@
 /* Make the header and footer a different color from the background */
 
 /* Align the h1 containing your name in the center of the header*/
-
+h1{
+    background-color: blueviolet;
+}
 /* Make your p tag a different color and italic */
-
+p{
+    background-color: rgb(200, 255, 127);
+}
 /* Put a border around your image */
+
+
 
 /* Change the font-family of your list */
