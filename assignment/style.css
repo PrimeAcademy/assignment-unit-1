@@ -16,8 +16,8 @@ p {
     font-style: italic;
 }
 /* Put a border around your image */
-{
-    border-image: <img src="https://imgs.search.brave.com/vuX54W-ZBcgoKUjtatireX1YVq-75j3BC6v14DpHz0U/rs:fit:1200:800:1/g:ce/aHR0cDovL3RyYXZl/bGRpZ2cuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L1Rob3JzLVdlbGwt/UGhvdG9ncmFwaHkt/YXQtU3Vuc2V0Lmpw/Zw"> 50px solid black;
+img {
+   border: 10px solid #DB7093;
 }
 /* Change the font-family of your list */
 ul {
