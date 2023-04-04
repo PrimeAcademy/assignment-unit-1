@@ -1,11 +1,45 @@
+
 /* Give your page a fun background color */
+body {
+    /* Dracula Themed Background */
+    background-color: #282a36;
+    margin: 2% 30% 30% 30%;
+}
 
-/* Make the header and footer a different color from the background */
-
+/* Make the header and footer a different color from the background*/
 /* Align the h1 containing your name in the center of the header*/
+.header {
+    background-color: green;
+    text-align: center;
+    color: beige;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
-/* Make your p tag a different color and italic */
+footer {
+    background-color: black;
+    color: green;
+    font-weight: bold;
+    margin-right: 65%;
+}
 
 /* Put a border around your image */
+img {
+    height: auto;
+    max-width: 95%;
+    border: 10px dotted rebeccapurple;
+}
+
+/* Make your p tag a different color and italic */
+p.aboutMe {
+    color:red;
+    font-style: italic;
+    font-weight: bold;
+}
 
 /* Change the font-family of your list */
+.list {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+}
+
