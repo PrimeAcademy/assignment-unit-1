@@ -6,9 +6,12 @@ body{
 
 /* Align the h1 containing your name in the center of the header*/
 
-h1{
+header{
     text-align: center;
     background-color: blueviolet;
+}
+footer{
+    background-color:rgb(24, 126, 170);
 }
 /* Make your p tag a different color and italic */
 p{
@@ -17,10 +20,8 @@ p{
 }
 
 /* Put a border around your image */
-h2{
+img{
     border-style: solid;
-    padding-top: 5px;
-    padding-left: 5px;
 }
 
 
