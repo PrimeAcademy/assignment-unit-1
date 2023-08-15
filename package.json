@@ -4,7 +4,7 @@
   "description": "Prime Prework Week 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter test/reporter.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/PrimeAcademy/prime-pw-week-1-assignment/issues"
   },
-  "homepage": "https://github.com/PrimeAcademy/prime-pw-week-1-assignment#readme"
+  "homepage": "https://github.com/PrimeAcademy/prime-pw-week-1-assignment#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "node-html-parser": "^6.1.5"
+  }
 }
