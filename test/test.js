@@ -28,6 +28,14 @@ if (typeof window === 'object') {
  * Put all tests within this describe.
  */
 describe('Automated tests', function () {
+
+    describe('Change the title of the page to `Hello World`', function () {
+        it('Change the title of the page to `Hello World`', function() {
+            let title = root.querySelector('title');
+            expect(title, '<title> not changed to `Hello World`').to.be('Hello World');
+        });
+    });
+
     describe('Create a header element `<header>` element', function () {
         it('Create a header element `<header>` element', function () {
             let header = root.querySelector('header');
