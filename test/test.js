@@ -31,8 +31,8 @@ describe('Automated tests', function () {
 
     describe('Change the title of the page to `Hello World`', function () {
         it('Change the title of the page to `Hello World`', function() {
-            let title = root.querySelector('title');
-            expect(title, '<title> not changed to `Hello World`').to.be('Hello World');
+            let title = root.querySelector('title').innerHTML;
+            expect(title, '<title> not changed to `Hello World`').to.equal('Hello World');
         });
     });
 
