@@ -36,22 +36,17 @@ class MyReporter {
 | HTML, CSS, & JS | Complete? |
 | --- | :---: |`);
                 console.log(
-                    `\x1b[32m`,
-                    `| Checkpoints complete | - |`,
-                    `\x1b[0m`
-                );
-                console.log(
-                    `\x1b[32m`,
+                    `\x1b[33m`,
                     `| JS contains console log | - |`,
                     `\x1b[0m`
                 );
                 console.log(
-                    `\x1b[32m`,
+                    `\x1b[33m`,
                     `| The correct repo was turned in | - |`,
                     `\x1b[0m`
                 );
                 console.log(
-                    `\x1b[32m`,
+                    `\x1b[33m`,
                     `| GitHub config correct | - |`,
                     `\x1b[0m`
                 );
