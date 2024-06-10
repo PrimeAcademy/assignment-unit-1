@@ -87,6 +87,18 @@ describe('Automated tests', function () {
             expect(div, '<img> not found').to.exist;
         });
     });
+        describe('Image URL is a Relative URL, not Absolute', function () {
+        const absolutePathError = `
+         The URL you're using for your image looks like an Absolute URL, which wont work on anyone else's machine.
+         Try a relative url, which will be shorter and look something like './image.png'
+        `;
+
+        it('Image URL is a Relative URL, not Absolute', function () {
+            let src = root.querySelector('img').getAttribute("src");
+            let absolutePath = src.match(/^(?:[a-zA-Z]+:)?\/\/|^[a-zA-Z]:\\|^\/(Users)/)
+            expect(absolutePath, absolutePathError).to.not.exist;
+        });
+    });
     describe('Create an unordered list with 3 list items of fun facts about you', function () {
         it('Create an unordered list with 3 list items of fun facts about you', function () {
             let ul = root.querySelector('main ul');
