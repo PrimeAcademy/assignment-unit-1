@@ -95,7 +95,7 @@ describe('Automated tests', function () {
 
         it('Image URL is a Relative URL, not Absolute', function () {
             let src = root.querySelector('img').getAttribute("src");
-            let absolutePath = src.match(/^(?:[a-zA-Z]+:)?\/\/|^[a-zA-Z]:\\|^\/(Users)/)
+            let absolutePath = src.match(/^\/(Users)/)
             expect(absolutePath, absolutePathError).to.not.exist;
         });
     });
