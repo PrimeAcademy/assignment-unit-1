@@ -1,0 +1,35 @@
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+#mocha-stats {
+    background-color: #ffffffee;
+    padding-top: 4px !important;
+    border: 1px solid darkgray;
+}
+
+#mocha .test a.replay {
+    display: none;
+}
+
+#mocha h1 a {
+    pointer-events: none;
+}
+
+pre {
+    display: inline;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.note {
+    color: black;
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #FFFFCC;
+    border: 2px solid teal;
+    font-size: 1.2em;
+}

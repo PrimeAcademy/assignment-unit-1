@@ -1,0 +1,31 @@
+{
+  "name": "prime-pw-week-1-assignment",
+  "version": "1.0.0",
+  "description": "Prime Prework Week 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter test/reporter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeAcademy/prime-pw-week-1-assignment.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Prime Digital Academy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrimeAcademy/prime-pw-week-1-assignment/issues"
+  },
+  "homepage": "https://github.com/PrimeAcademy/prime-pw-week-1-assignment#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "node-html-parser": "^6.1.5"
+  }
+}
