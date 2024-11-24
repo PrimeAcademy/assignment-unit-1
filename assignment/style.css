@@ -1,13 +1,55 @@
 /* Add a background color to the header element */
-
+header {
+    background-color: slategray;
+    color: limegreen;
+}
+body {
+    background-color: burlywood;
+}
 /* Add a fun background color to the main element */
-
+main {
+    background-color: burlywood;
+    color:maroon;
+}
+.dev-statement{
+    background-color: whitesmoke;
+    color:black;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+    align-items:center;
+    color: teal;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* Make your p tag a different color and italic */
-
+/* I already have text somewhere italicized, but I would just add "font-style: italic;" into the paragraph tag that I have below. */
+p {
+    color: dimgray;
+    
+}
 /* Put a border around your image */
-
+img {
+    border: 5px solid orangered;
+    margin-left: 10px;
+}
 /* Change the font-family of your list */
+ul {
+    color: ;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+ol {
+    background-color: red;
+    color: black;
+    font-size: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
 /* Add a background color to the footer element */
+footer {
+    background-color: black;
+    color:teal;
+}
